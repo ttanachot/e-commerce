@@ -1,0 +1,12 @@
+.Slider {
+  max-width: 440px;
+  width: 100%;
+}
+
+.Slider .slider-container {
+  text-align: center;
+}
+
+.Slider .slider-container .image {
+  width: 100%;
+}

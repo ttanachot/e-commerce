@@ -1,0 +1,39 @@
+.ItemInfo {
+  margin: 0 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+  box-shadow: 0 0.25rem 0.5rem 0 rgba(117, 117, 119, 0.5);
+  border: 1px solid #f8f8f8;
+  border-radius: 2px;
+  max-width: 440px;
+  width: 100%;
+  min-height: 400px;
+}
+
+.ItemInfo .section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ItemInfo .section .like,
+.ItemInfo .section .comment {
+  display: flex;
+  align-items: center;
+}
+.ItemInfo .section .like .count,
+.ItemInfo .section .comment .count {
+  margin-left: 2px;
+}
+
+@media only screen and (max-width: 840px) {
+  .ItemInfo {
+    box-shadow: none;
+    border-radius: 0;
+    margin: 0;
+  }
+
+  .ItemInfo .description {
+    min-height: 150px;
+  }
+}

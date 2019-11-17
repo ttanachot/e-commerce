@@ -1,0 +1,13 @@
+.SellerInfo .card {
+  padding: 10px;
+}
+
+.SellerInfo .verify {
+  color: #41B3A3;
+  background-color: white;
+  border: 1px solid #41B3A3;
+  border-radius: 15px;
+  width: auto;
+  display: inline-block;
+  padding: 2px 10px;
+}

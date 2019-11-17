@@ -1,0 +1,39 @@
+.BuyInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.BuyInfo .sold-out {
+  text-decoration: line-through;
+  margin-left: 2px;
+  opacity: 0.5;
+}
+
+.BuyInfo .price {
+  font-size: 20px;
+}
+
+.BuyInfo .price .shipping-fee {
+  font-size: 14px;
+  margin-left: 2px;
+}
+
+.BuyInfo .buy-item .buy-button {
+  background-color: red !important;
+  border-color: red !important;
+  font-weight: bold;
+  color: white;
+  height: 40px !important;
+  width: 120px;
+  font-size: 20px;
+}
+
+.BuyInfo .buy-item .disabled {
+  background-color: lightgray !important;
+  border-color: lightgray !important;
+  font-weight: bold;
+  height: 40px !important;
+  width: 120px;
+  font-size: 20px;
+}

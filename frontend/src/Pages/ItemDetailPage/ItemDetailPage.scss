@@ -1,0 +1,28 @@
+.ItemDetailPage {
+  max-width: 920px;
+  margin: auto;
+  margin-bottom: 60px;
+}
+
+.ItemDetailPage .header {
+  display: flex;
+  flex-flow: wrap;
+  margin: 10px;
+  font-size: 24px;
+}
+
+.ItemDetailPage .container {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.ItemDetailPage .floating-bottom {
+  position: fixed;
+  bottom: 0;
+  padding: 10px 20px;
+  color: white;
+  max-width: 920px;
+  width: 100%;
+  background-color: black;
+}

@@ -1,0 +1,15 @@
+.HomePage .nav,
+.HomePage .list {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1024px;
+  margin: auto;
+  margin-top: 15px;
+
+  .item {
+    order: 1;
+    display: flex;
+  }
+}

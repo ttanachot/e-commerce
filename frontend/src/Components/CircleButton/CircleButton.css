@@ -1,0 +1,5 @@
+.CircleButton {
+  border: 1px solid lightgray !important;
+  border-radius: 10px !important;
+  background-color: lightgray !important;
+}
