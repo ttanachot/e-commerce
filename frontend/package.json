@@ -5,7 +5,7 @@
   "homepage": ".",
   "dependencies": {
     "antd": "^3.23.2",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "currency-formatter": "^1.5.5",
     "dotenv": "^8.1.0",
     "lodash": "^4.17.11",
