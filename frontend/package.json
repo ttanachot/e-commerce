@@ -54,7 +54,7 @@
     "jest-junit": "^6.1.0",
     "less": "^3.0.4",
     "less-loader": "^4.1.0",
-    "react-dev-utils": "^5.0.1",
+    "react-dev-utils": "^11.0.4",
     "sass-loader": "^7.0.3",
     "style-loader": "^0.21.0",
     "url-loader": "^1.0.1",
